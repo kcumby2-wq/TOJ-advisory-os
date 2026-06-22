@@ -62,3 +62,21 @@ If a session needs these, fetch them from `Groundfloorsports` directly rather th
 - Parent/Guardian can request a different mentor, or end participation, at any time, without justification.
 - Mentor compensation is a revenue share on mentorship calls, administered through XpandSports (`xpandsports.com/Subjectmedia`) — not disclosed to the family as part of the Mentorship Agreement (Section 4.3).
 - Background/reference verification is mandatory for every mentor regardless of how trusted they already are in the Crew Hub context — Crew Hub vetting is for an adult-to-adult commercial relationship, not sufficient on its own for mentoring a minor.
+
+## SubjectOS Command
+
+**Reference:** `SUBJECT-OS-MASTER.md` (`Groundfloorsports/trail-of-joy/`) — the full strategic architecture this repo executes one piece of (SubjectSkillz = the Transformation Engine).
+
+Every time this agent receives new information — a family inquiry, a mentor application, a regulatory change, a piece of feedback — it should ask:
+
+> Does this improve Attention, Trust, Data, Systems, AI, or Opportunity?
+
+**If NO:** Ignore it.
+
+**If YES**, determine:
+- Which company benefits? (Usually SubjectSkillz/TOJ Advisory, but creator footage signals may belong to Subject Media or Groundfloorsports under the Two-Track Model)
+- Which KPI improves? (Students Impacted, Certifications, Event Attendance)
+- Which agent should own it? (See `agents/README.md` — note this repo currently has no `goals/` or `workflows/` folder, which is this week's priority fix per `MATURITY.md`)
+- Which SOP should document it? (Update `docs/mentor-assignment-matching-sop.md` or the relevant shared document in `trail-of-joy/` if genuinely cross-brand)
+- Can it become an asset? (Curriculum content, mentor roster, prompt)
+- Can it become automated? (Flag for `MATURITY.md` Level 4/5 progress)
